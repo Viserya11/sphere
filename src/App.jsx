@@ -57,6 +57,7 @@ export default function App() {
 
   function animate() {
     controls.update();
+    sphere.rotation.y += 0.007;
     requestAnimationFrame(animate);
     renderer.render(scene, camera);
   }
