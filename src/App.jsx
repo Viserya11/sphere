@@ -27,7 +27,7 @@ export default function App() {
   const sphere = new THREE.Mesh(
     new THREE.SphereGeometry(5, 20, 20),
     new THREE.MeshBasicMaterial({
-      color: 0x7851a9,
+      color: 0xedddab,
       wireframe: true,
       transparent: true,
       opacity: 0.35,
